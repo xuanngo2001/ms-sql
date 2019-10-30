@@ -4,3 +4,6 @@
     
 # Update design digram
     plantuml.sh -tpng sample-db-design.puml
+    
+# References
+- ER cardinality: https://db.grussell.org/section004.html
