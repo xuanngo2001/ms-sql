@@ -17,6 +17,9 @@ CREATE TABLE Contacts(
         Lastname NCHAR(50) NOT NULL
     );
 
+-- Add foreign keys.
+ALTER TABLE Emails WITH CHECK ADD CONSTRAINT FK_Emails_Contacts FOREIGN KEY(Contact_id) REFERENCES Contacts (id);
+
 -- Insert data.
 USE Test;
 INSERT INTO Contacts(Firstname, Lastname) VALUES('Joe', 'Smith');
