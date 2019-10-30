@@ -6,7 +6,8 @@
 ' we use bold for primary key
 ' green color for unique
 ' and underscore for not_null
-!define primary_key(x) <b>x</b>
+sprite $primary [17x12/16z] bOqv3e1030CJRzPn9Fx_NWY7n4eqJ3TJs6OVa5pTpD-5tl3YyFHG-4DsqAOnWgawWp0r0KGagDuGMYMJxbMrBxzLPJ_O0G00
+!define primary_key(x) <$primary> <b>x</b>
 !define unique(x) <color:green>x</color>
 !define not_null(x) <u>x</u>
 ' other tags available:
